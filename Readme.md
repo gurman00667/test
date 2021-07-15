@@ -25,3 +25,13 @@ Password : ""
 }
 
 ```
+```http://localhost:6999/login```
+It **GET** request you need to pass some params as object 
+
+```
+{
+EMAIL : ""
+Password : ""
+}
+
+```
