@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "Email": "as@localhost.com",
+            "name": "as",
+            "password": "U2FsdGVkX1/+EdBnmKDVkKHbejSCXIw1PcazSnocESM=",
+            "noofPost": 0,
+            "comment": 0
+        },
+        {
+            "Email": "asd@localhost.com",
+            "name": "asd",
+            "password": "U2FsdGVkX1/+EdBnmKDVkKHbejSCXIw1PcazSnocESM=",
+            "noofPost": 0,
+            "comment": 0
+        },
+        {
+            "Email": "g@localhost.com",
+            "name": "g",
+            "password": "U2FsdGVkX1/IowJfvCnJJKP8H1g1z9e3lQLQPdqz+Dw=",
+            "noofPost": 0,
+            "comment": 0
+        }
+    ]
+}
