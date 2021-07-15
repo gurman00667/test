@@ -15,4 +15,10 @@
 There are several API calls To access them through Postman:
 
 ```http://localhost:6999/adduser```
-```
+It **POST** request you need to pass some data as object 
+
+```{
+EMAIL : ""
+Name : ""
+Password : ""
+}```
