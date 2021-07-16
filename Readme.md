@@ -14,15 +14,41 @@
 
 There are several API calls To access them through Postman:
 
-```http://localhost:6999/adduser```
-It **POST** request you need to pass some data as object 
+1. ```http://localhost:6999/adduser```
+  It **POST** request you need to pass some data as object 
 
-```
-{
-EMAIL : ""
-Name : ""
-Password : ""
-}
+  ```
+  {
+  EMAIL : ""
+  Name : ""
+  Password : ""
+  }
 
-```
+  ```
+
+1. ```http://localhost:6999/uploads```
+
+  It **GET** request you don't need to pass data 
+   _res_ will be :
+  ```
+  data : [
+    {
+      text : ""
+      path : ""
+      filename : ""
+    }
+  ]
+  ```
+
+1. ```http://localhost:6999/uploads```
+
+  It **POST** request you need to pass Form Data :
+  ```
+  data : [
+    {
+      text : ""
+      file : *type file*
+    }
+  ]
+  ```
 
