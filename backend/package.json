@@ -1,16 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "test App",
   "main": "index.js",
-  "engines": {
-    "node": "14.4.0"
-  },
   "scripts": {
+    "start": "node server/index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Gurman",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
