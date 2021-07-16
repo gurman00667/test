@@ -26,7 +26,7 @@ There are several API calls To access them through Postman:
 
   ```
 
-1. ```http://localhost:6999/uploads```
+2. ```http://localhost:6999/uploads```
 
   It **GET** request you don't need to pass data 
    _res_ will be :
@@ -40,7 +40,7 @@ There are several API calls To access them through Postman:
   ]
   ```
 
-1. ```http://localhost:6999/uploads```
+3. ```http://localhost:6999/uploadPost```
 
   It **POST** request you need to pass Form Data :
   ```
@@ -52,3 +52,4 @@ There are several API calls To access them through Postman:
   ]
   ```
 
+The Security can be Imporved due to less time I have just requirements.
