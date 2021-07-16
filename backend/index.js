@@ -8,7 +8,7 @@ app.use(express.urlencoded({
     extended: true
 }));
 app.use(express.json());
-
+app.use('/uploads', express.static('uploadedContent'));
 app.use(cors());
 app.use("/", routes);
 
