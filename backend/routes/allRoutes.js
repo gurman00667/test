@@ -1,5 +1,5 @@
 const express = require('express');
-const userData = require('../Data/UserDB.json');
+const userData = require('../Data/UserDB.Json');
 const fs = require('fs');
 const multer = require('multer');
 const { response } = require('express');
